@@ -13,7 +13,7 @@ print("_" * 50)
 
 try:
     # Scan Every Port
-    for port in range(2, 65535):
+    for port in range(1, 65535):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         socket.setdefaulttimeout(0.5)
 
